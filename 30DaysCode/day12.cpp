@@ -34,7 +34,7 @@ public:
 
   char calculate()
   {
-    int avg;
+    int avg = 0;
     for (auto i : testScores)
       avg += i;
     avg /= testScores.size();
